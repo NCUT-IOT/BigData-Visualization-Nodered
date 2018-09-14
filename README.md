@@ -1,1 +1,20 @@
 数据可视化 - Node red
+
+1. notebook节点安装docker
+https://docs.docker.com/install/linux/docker-ce/centos/#install-docker-ce-1
+
+2. 安装node-red container
+https://hub.docker.com/r/nodered/node-red-docker/
+
+以下命令在notebook节点上，用root用户执行（命令用 > 表示，类似执行ls等linux命令）
+
+2.1 node-red image 下载到本地：
+> docker pull nodered/node-red-docker
+
+2.2 启动node-red container：
+> docker run -it -p 1880:1880 --name mynodered nodered/node-red-docker
+
+2.3 浏览器访问node-red界面：
+http://{host-ip}:1880
+
+3. node-red界面上添加组件
