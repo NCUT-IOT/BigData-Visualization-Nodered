@@ -5,7 +5,9 @@
 
 2. 安装node-red container https://hub.docker.com/r/nodered/node-red-docker/
 
-## 以下命令在notebook节点上，用root用户执行（类似执行ls等linux命令）
+
+
+以下命令在notebook节点上，用root用户执行（类似执行ls等linux命令）
 
 3. node-red image 下载到本地： 
 command: docker pull nodered/node-red-docker
