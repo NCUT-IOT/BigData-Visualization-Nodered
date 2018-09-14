@@ -15,6 +15,3 @@ command: docker pull nodered/node-red-docker
 command: docker run -it -p 1880:1880 --name mynodered nodered/node-red-docker
 
 2.3 浏览器访问node-red界面： http://{host-ip}:1880
-
-3. node-red界面上添加组件
-
